@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">AnimalList</string>
+    <string name="animal_name">Name: %1$s</string>
+    <string name="animal_age">Age: %1$d</string>
+    <string name="animal_beauty">Beauty: %1$s</string>
+
+    <string-array name="pref_sort_entry_values">
+        <item>name</item>
+        <item>age</item>
+        <item>beauty</item>
+    </string-array>
+
+    <string-array name="pref_sort_entries">
+        <item>Sort by Name</item>
+        <item>Sort by Age</item>
+        <item>Sort by Beauty</item>
+    </string-array>
+
+    <string-array name="pref_db_entry_values">
+        <item>cursor</item>
+        <item>room</item>
+    </string-array>
+
+    <string-array name="pref_db_entries">
+        <item>Cursor</item>
+        <item>Room</item>
+    </string-array>
+</resources>

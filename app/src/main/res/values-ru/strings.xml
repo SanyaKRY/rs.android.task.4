@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AnimalList</string>
+    <string name="animal_name">Имя: %1$s</string>
+    <string name="animal_age">Возраст: %1$d</string>
+    <string name="animal_beauty">Красота: %1$d</string>
+</resources>

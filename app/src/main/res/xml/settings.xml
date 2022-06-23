@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/pref_sort_entries"
+        android:entryValues="@array/pref_sort_entry_values"
+        android:key="pref_sort"
+        android:title="Sort by something" />
+    <ListPreference
+        android:defaultValue="room"
+        android:entries="@array/pref_db_entries"
+        android:entryValues="@array/pref_db_entry_values"
+        android:key="pref_db"
+        android:title="Database implemented interaction" />
+</PreferenceScreen>
